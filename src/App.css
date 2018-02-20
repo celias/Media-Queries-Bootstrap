@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.welcome-container {
+  background-color: lightgrey;
+  background-image:
+  url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  height: 491px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  height: 40px;
+  background-color: #212529;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-lrg{
+  height: 100px;
+  padding: 8px 16px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo{
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #fed136;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ham-btn{
+  color: white;
+  background-color: #fed136;
+  padding: 13px;
+  height: 12px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.bars {
+  padding-left: 7px;
+}
+
+.menu-list{
+  display: flex;
+  color: white;
+  font-family: 'montserrat';
+  font-size: 14px;
+  line-height: 21.6px;
+  letter-spacing: 1px;
+  justify-content: space-between;
+  width: 40vw;
+  padding-right: 80px;
+  max-width: 550px;
+  min-width: 320px;
+}
+.menu-item a {
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.intro{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Droid Serif";
+  letter-spacing: normal;
+}
+
+h2 {
+  color: white;
+  font-family: 'Bree Serif', serif;
+  font-size: 40px;
+  font-style: oblique;
+  letter-spacing: 0.1rem;
+  margin: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: 'montserrat';
+  font-size: 75px;
+  line-height: 75px;
+  margin: 10px;
+  letter-spacing: 0.1rem;
+}
+
+.welcome-btn{
+  align-self: center;
+  padding: 25px;
+  background-color: #fed136;
+  width: 150px;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'montserrat';
+  margin-top: 20px;
+  box-shadow: none
+
+}
+
+.menu-item a:hover {
+  background-color: #fed136;
+
+}
+
+@media (min-width: 787px) {
+  .intro {
+      padding-top: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 600px;
+      margin: auto;
+  }
+
+  h2 {
+      color: white;
+      font-family: 'Bree Serif', serif;
+      font-size: 40px;
+      letter-spacing: 0.1rem;
+      margin: 10px;
+  }
+
+  h1 {
+      color: white;
+      font-family: 'montserrat';
+      font-size: 75px;
+      margin: 10px;
+      letter-spacing: 0.1rem;
+  }
+  .welcome-container {
+      height: 759px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+      display: none;
+  }
+  .welcome-container {
+      margin: auto;
+  }
+  .navbar-lrg {
+      display: flex;
+      max-width: 1100px;
+      margin: auto;
+  }
+  .navbar-lrg .logo {
+      font-size: 30px;
+      padding-left: 80px;
+  }
+  .intro {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+  }
+}
